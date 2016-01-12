@@ -243,7 +243,7 @@
       </div>
       <div class="col-md-4 ">
         <div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-          <img src="images/lanchamin.jpg" alt="" class="img-thumbnail"/>
+          <img src="images/lanchamin.jpg" width="320" height="180" alt="" class="img-thumbnail"/>
           <hr>
           <h3>PASSEIO DE LANCHA</h3>
           <div class="separator clearfix"></div>
@@ -253,7 +253,7 @@
       </div>
       <div class="col-md-4 ">
         <div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="150">
-          <img src="images/catamara-por-sol-min-320.jpg" alt="" class="img-thumbnail"/>
+          <img src="images/catamara-por-sol-min-320.jpg" width="320" height="180" alt="" class="img-thumbnail"/>
           <hr>
           <h3>PÔR DO SOL</h3>
           <div class="separator clearfix"></div>
@@ -265,11 +265,11 @@
       </div>
       <div class="col-md-4 ">
         <div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
-          <img src="images/praias-min-320.jpg" alt="" class="img-thumbnail"/>
+          <img src="images/praias-min-320.jpg" width="320" height="180" alt="" class="img-thumbnail"/>
           <hr>
           <h3>PRAIAS DE PIPA</h3>
           <div class="separator clearfix"></div>
-          <p>Passeio de catamarã ou escuna pelas praias da Pipa, visitando a Praia do Amor, as Falésias do Chapadão, Baía dos Golfinhos, Praia do Madeiro e a praia de cacimbinhas. Com parada para tomar banho nas praias</p>
+          <p>Passeio de catamarã pelas praias da Pipa, visitando a Praia do Amor, as Falésias do Chapadão, Baía dos Golfinhos, Praia do Madeiro e a praia de cacimbinhas. Com parada para tomar banho nas praias</p>
           <a href="trip-beaches.php">Mais detalhes e pagamentos<i class="pl-5 fa fa-angle-double-right"></i></a>
         </div>
       </div>
@@ -326,22 +326,12 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <img src="images/sobre-nos.jpg" alt="">
+          <img src="images/sobre-nos.jpg" width="555" height="640" alt="">
         </div>
         <div class="col-md-6">
           <p class="space-top">Nossa central Ponto Do Aventureiro funciona diariamente das 9h30 às 13h30 Estamos localizados na Praia Central de Pipa, próximos ao local do embarque. Ponto de referència para chegar : Hotel Pipa’s Bay.</p>
-
-          <div class="media">
-            <div class="media-left pr-20">
-              <a href="#">
-                <span class="icon circle small default-bg"><i class="fa fa-ship"></i> </span>
-              </a>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">Escuna Malembar</h4>
-              Passeio Praias de Pipa
-            </div>
-          </div>
+          <br>
+          <h3 class="title">Embarcações</h3><br>
           <div class="media">
             <div class="media-left pr-20">
               <a href="#">
@@ -350,7 +340,7 @@
             </div>
             <div class="media-body">
               <h4 class="media-heading">Catamarã Aventureiro Mais</h4>
-              Passeio Especial Pôr Do Sol
+              Praias da Pipa e Passeio Especial Pôr Do Sol
             </div>
           </div>
           <div class="media">
@@ -364,6 +354,7 @@
               Passeio de lancha pelas Praias de Pipa
             </div>
           </div>
+          <br>
           <p><i class="icon-lifebuoy"></i> Todas as nossas embarcaçoes possuem o Certificado de Segurança da Navegação das Autoridades  Marítimas Brasileiras, que afirma que os barcos são totalmente adequados às regulamentações e exigências da lei.</p>
           <p><i class="icon-lifebuoy"></i> A organização e execução dos nossos passeios são executadas em total respeito ao ambiente marinho. </p>
           <p><i class="icon-lifebuoy"></i> A idade mínima permitida para o embarque das crianças é de 6 anos.</p>

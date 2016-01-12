@@ -1,23 +1,4 @@
 <?php  require 'header.php'; ?>
-<?php
-// recebe os valores do formulário sem tratameto
-  $name = $_POST['name'];
-  $email = $_POST['email'];
-  $subject = $_POST['subject'];
-  $message = $_POST['message'] . "\n Essa mensagem foi enviad por: " . $name;
-
-// email que recebe as mensagens
-  $to = 'renatosoarespro@gmail.com';
-  
-// envio dos dados
-  mail($to, $subject, $message, 'From:' . $email);
-
-// Mosta mensagem de alerta sobre envio do email.
-  $alert = "hidden";
-  if ($_POST["submit"]) {
-    $alert = "";
-  }
- ?>
 
   <!-- banner start -->
   <!-- ================ -->
@@ -63,58 +44,6 @@
   <!-- ================ -->
   <section class="main-container">
 
-    <div class="container">
-      <div class="row">
-
-        <!-- main start -->
-        <!-- ================ -->
-        <div class="main col-md-12 space-bottom" id="message">
-          <h2 class="title">Deixe-nos uma mensagem</h2>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="alert alert-success  <?php echo $alert; ?>" id="MessageSent">
-                Recebemos sua mensagem, em breve vamos entrar em contato.
-              </div>
-              <div class="alert alert-danger hidden" id="MessageNotSent">
-                Oops! Something went wrong please refresh the page and try again.
-              </div>
-
-              <div class="contact-form">
-                <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" class="margin-clear" role="form">
-                <!-- <form id="contact-form" class="margin-clear" role="form" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post"> -->
-                  <div class="form-group has-feedback">
-                    <label for="name">Nome*</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="">
-                    <i class="fa fa-user form-control-feedback"></i>
-                  </div>
-                  <div class="form-group has-feedback">
-                    <label for="email">Email*</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="">
-                    <i class="fa fa-envelope form-control-feedback"></i>
-                  </div>
-                  <div class="form-group has-feedback">
-                    <label for="subject">Assunto*</label>
-                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Ex.: Sugestão, Reserva, Horário..." value="<?php $subjectValue = ($_GET['assunto']) ? "Reservas" : "" ; echo $subjectValue; ?>">
-                    <i class="fa fa-navicon form-control-feedback"></i>
-                  </div>
-                  <div class="form-group has-feedback">
-                    <label for="message">Mensagem*</label>
-                    <textarea class="form-control" rows="6" id="message" name="message" placeholder=""></textarea>
-                    <i class="fa fa-pencil form-control-feedback"></i>
-                  </div>
-                  <input type="submit" name="submit" value="Enviar" class="submit-button btn btn-default">
-                </form>
-
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div id="map-canvas"></div>
-            </div>
-          </div>
-        </div>
-        <!-- main end -->
-      </div>
-    </div>
   </section>
   <!-- main-container end -->
 

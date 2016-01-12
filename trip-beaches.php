@@ -13,7 +13,7 @@
         <!-- main start -->
         <!-- ================ -->
         <div class="main col-md-12">
-          <h3 class="title">PRAIAS DE <strong>PIPA</strong> (Catamarã e Escuna)</h3>
+          <h3 class="title">PRAIAS DE <strong>PIPA</strong> (Catamarã)</h3>
           <div class="separator-2"></div>
           <div class="row">
             <div class="col-md-6">
